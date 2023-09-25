@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="53.499146">
+    <testcase classname="Googel Store Search Page" name="Search Watch on Home Page" time="17.137045">
+        <system-out><![CDATA[Given user is already on Home Page..........................................passed
+When title of Home page is "Google Store for Google Made Devices & Accessories".passed
+Then user search watch on searchbar.........................................passed
+When title of search page is "Search results for: watch – Google Store".....passed
+Then user clicks on "Google Pixel Watch"....................................passed
+When title of product page is "Google Pixel Watch – Google Store"...........passed
+Then user clicks on buy button..............................................passed
+When title of product summary page is "Google Pixel Watch – Google Store"...passed
+Then user quit..............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Googel Store Home Page" name="Search Watch on Home Page" time="9.132169">
+        <system-out><![CDATA[Given user is already on Home Page..........................................passed
+When title of Home page is "Google Store for Google Made Devices & Accessories".passed
+Then user search watch on searchbar.........................................passed
+When title of search page is "Search results for: watch – Google Store".....passed
+Then user quit..............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Googel Store Purchase Page" name="Purchase watch on google store" time="27.229932">
+        <system-out><![CDATA[Given user is already on Home Page..........................................passed
+When title of Home page is "Google Store for Google Made Devices & Accessories".passed
+Then user search watch on searchbar.........................................passed
+When title of search page is "Search results for: watch – Google Store".....passed
+Then user clicks on "Google Pixel Watch"....................................passed
+When title of product page is "Google Pixel Watch – Google Store"...........passed
+Then user clicks on buy button..............................................passed
+When title of product summary page is "Google Pixel Watch – Google Store"...passed
+Then user choose color and check images.....................................passed
+Then user clicks on add to basket button....................................passed
+When label is "Added".......................................................passed
+Then user clicks on go to basket button.....................................passed
+Then user is on basket page.................................................passed
+Then user quit..............................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

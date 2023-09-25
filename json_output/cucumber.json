@@ -1,0 +1,702 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 19,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Search Watch on Home Page",
+        "description": "",
+        "id": "googel-store-search-page;search-watch-on-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9333325347,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user is already on Home Page",
+            "match": {
+              "location": "PurchasePageStepDefination.user_is_already_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57770692,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "title of Home page is \"Google Store for Google Made Devices \u0026 Accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google Store for Google Made Devices \u0026 Accessories",
+                  "offset": 23
+                }
+              ],
+              "location": "PurchasePageStepDefination.title_of_Home_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3473114507,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user search watch on searchbar",
+            "match": {
+              "location": "PurchasePageStepDefination.user_search_watch_on_searchbar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8957116,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "title of search page is \"Search results for: watch – Google Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search results for: watch – Google Store",
+                  "offset": 25
+                }
+              ],
+              "location": "PurchasePageStepDefination.title_of_search_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3211071698,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user clicks on \"Google Pixel Watch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google Pixel Watch",
+                  "offset": 16
+                }
+              ],
+              "location": "PurchasePageStepDefination.user_clicks_on(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 475435361,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "title of product page is \"Google Pixel Watch – Google Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google Pixel Watch – Google Store",
+                  "offset": 26
+                }
+              ],
+              "location": "PurchasePageStepDefination.title_of_product_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 223507281,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user clicks on buy button",
+            "match": {
+              "location": "PurchasePageStepDefination.user_clicks_on_buy_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79464916,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "title of product summary page is \"Google Pixel Watch – Google Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google Pixel Watch – Google Store",
+                  "offset": 34
+                }
+              ],
+              "location": "PurchasePageStepDefination.title_of_product_summary_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274398058,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user quit",
+            "match": {
+              "location": "PurchasePageStepDefination.user_quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Googel Store Search Page",
+    "description": "",
+    "id": "googel-store-search-page",
+    "keyword": "Feature",
+    "uri": "SearchPage.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      },
+      {
+        "line": 20,
+        "value": "##############################################"
+      }
+    ],
+    "line": 22,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Search Watch on Home Page",
+        "description": "",
+        "id": "googel-store-home-page;search-watch-on-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5466235350,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user is already on Home Page",
+            "match": {
+              "location": "PurchasePageStepDefination.user_is_already_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14332523,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "title of Home page is \"Google Store for Google Made Devices \u0026 Accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google Store for Google Made Devices \u0026 Accessories",
+                  "offset": 23
+                }
+              ],
+              "location": "PurchasePageStepDefination.title_of_Home_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3408450990,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user search watch on searchbar",
+            "match": {
+              "location": "PurchasePageStepDefination.user_search_watch_on_searchbar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10477860,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "title of search page is \"Search results for: watch – Google Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search results for: watch – Google Store",
+                  "offset": 25
+                }
+              ],
+              "location": "PurchasePageStepDefination.title_of_search_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232672426,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user quit",
+            "match": {
+              "location": "PurchasePageStepDefination.user_quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Googel Store Home Page",
+    "description": "",
+    "id": "googel-store-home-page",
+    "keyword": "Feature",
+    "uri": "homePage.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: your.email@your.domain.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "Purchase watch on google store",
+        "description": "",
+        "id": "googel-store-purchase-page;purchase-watch-on-google-store",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5542515722,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is already on Home Page",
+            "match": {
+              "location": "PurchasePageStepDefination.user_is_already_on_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18346392,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "title of Home page is \"Google Store for Google Made Devices \u0026 Accessories\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google Store for Google Made Devices \u0026 Accessories",
+                  "offset": 23
+                }
+              ],
+              "location": "PurchasePageStepDefination.title_of_Home_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3435725089,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user search watch on searchbar",
+            "match": {
+              "location": "PurchasePageStepDefination.user_search_watch_on_searchbar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9671287,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "title of search page is \"Search results for: watch – Google Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search results for: watch – Google Store",
+                  "offset": 25
+                }
+              ],
+              "location": "PurchasePageStepDefination.title_of_search_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3180721381,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user clicks on \"Google Pixel Watch\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google Pixel Watch",
+                  "offset": 16
+                }
+              ],
+              "location": "PurchasePageStepDefination.user_clicks_on(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 367925722,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "title of product page is \"Google Pixel Watch – Google Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google Pixel Watch – Google Store",
+                  "offset": 26
+                }
+              ],
+              "location": "PurchasePageStepDefination.title_of_product_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224386845,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks on buy button",
+            "match": {
+              "location": "PurchasePageStepDefination.user_clicks_on_buy_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54172725,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "title of product summary page is \"Google Pixel Watch – Google Store\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Google Pixel Watch – Google Store",
+                  "offset": 34
+                }
+              ],
+              "location": "PurchasePageStepDefination.title_of_product_summary_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8938049666,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user choose color and check images",
+            "match": {
+              "location": "PurchasePageStepDefination.user_choose_color_and_check_images()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 175199261,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicks on add to basket button",
+            "match": {
+              "location": "PurchasePageStepDefination.user_clicks_on_add_to_basket_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1790265999,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "label is \"Added\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Added",
+                  "offset": 10
+                }
+              ],
+              "location": "PurchasePageStepDefination.label_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3201367404,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user clicks on go to basket button",
+            "match": {
+              "location": "PurchasePageStepDefination.user_clicks_on_go_to_basket_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7163488,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user is on basket page",
+            "match": {
+              "location": "PurchasePageStepDefination.user_is_on_basket_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 284421149,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user quit",
+            "match": {
+              "location": "PurchasePageStepDefination.user_quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Googel Store Purchase Page",
+    "description": "",
+    "id": "googel-store-purchase-page",
+    "keyword": "Feature",
+    "uri": "purchasePage.feature"
+  }
+]
